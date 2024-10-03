@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from React Router
 import './Navbar.css'; // Adding custom CSS to refine styles
 
 class Navbar extends React.Component {
@@ -9,10 +10,7 @@ class Navbar extends React.Component {
         {/* Navigation Bar */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-             
-              Virtual Library
-            </a>
+            <Link className="navbar-brand" to="/">Virtual Library</Link> {/* Change from a to Link */}
             <button
               className="navbar-toggler"
               type="button"
@@ -27,24 +25,16 @@ class Navbar extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
-                    Home
-                  </a>
+                  <Link className="nav-link active" to="/">Home</Link> {/* Change from a to Link */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    My Reading List
-                  </a>
+                  <Link className="nav-link" to="/reading-list">My Reading List</Link> {/* Example for a reading list route */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Browse Books
-                  </a>
+                  <Link className="nav-link" to="/browse">Browse Books</Link> {/* Example for a browse books route */}
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-outline-light ms-3" href="#">
-                    Sign In
-                  </a>
+                  <Link className="btn btn-outline-light ms-3" to="/signin">Sign In</Link> {/* Example for sign-in route */}
                 </li>
               </ul>
             </div>

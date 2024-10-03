@@ -1,0 +1,115 @@
+.home {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('D:\react.js\React-Js\webapp\public\014beefb7e389234e400edeebfae4165.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Categories Section */
+  .categories-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .categories-section h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Popular Books Section */
+  .popular-books-section {
+    padding: 2rem;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .popular-books {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .book-card {
+    width: 200px;
+    padding: 1rem;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Reviews Section */
+  .reviews-section {
+    padding: 2rem;
+    background-color: #e9ecef;
+    text-align: center;
+  }
+  
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .review {
+    width: 300px;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
