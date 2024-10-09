@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Home.css'; // Custom CSS for styling
-
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="home">
@@ -9,8 +9,8 @@ function Home() {
       <div className="hero">
         <div className="hero-content">
           <h1>Welcome to the Virtual Library</h1>
-          <p>Discover thousands of books, read reviews, and curate your personal reading list.</p>
-          <a href="#" className="btn btn-primary btn-lg">Browse Books</a>
+          <p>Discover thousands of books, and create your personal reading list.</p>
+          <Link className="btn btn-primary btn-lg" to={"/browse"}> Browse Books</Link>
         </div>
       </div>
 

@@ -1,0 +1,82 @@
+/* Login.css */
+
+/* Set the background for the login page */
+.login-page {
+    background-color: rgb(255, 255, 255); /* Set background only for login page */
+    height: 100vh; /* Full height for the page */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Set the container for the login form */
+  .login-container {
+    width: 410px;
+    padding: 20px;
+    height: 390px;
+    margin-bottom: 170px;
+    background-color: #000; /* Black background for neon effect */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px #00FFFF, 0 0 15px #00FFFF, 0 0 15px #00FFFF; /* Neon blue glow */
+  }
+  
+  /* Styling for the login heading */
+  .login-heading {
+    margin-bottom: 20px;
+    color: #00FFFF; /* Neon blue text */
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form field styles */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00FFFF; /* Neon blue label text */
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1E1E1E; /* Dark input background */
+    color: #FFFFFF; /* White text */
+  }
+  
+  /* Neon button styling */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #00FFFF; /* Neon blue button */
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px #00FFFF, 0 0 5px #00FFFF, 0 0 5px #00FFFF; /* Neon blue glow */
+  }
+  
+  /* Hover effect for button */
+  .login-btn:hover {
+    background-color: #00BFFF; /* Lighter neon blue */
+  }
+  
+  /* Input focus effect */
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00FFFF, 0 0 10px #00FFFF; /* Neon blue glow on focus */
+  }
+  

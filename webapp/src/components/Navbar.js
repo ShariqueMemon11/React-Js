@@ -34,7 +34,7 @@ class Navbar extends React.Component {
                   <Link className="nav-link" to="/browse">Browse Books</Link> {/* Example for a browse books route */}
                 </li>
                 <li className="nav-item">
-                  <Link className="btn btn-outline-light ms-3" to="/signin">Sign In</Link> {/* Example for sign-in route */}
+                  <Link className="btn btn-outline-light ms-3" to="/login">Log In</Link> {/* Example for sign-in route */}
                 </li>
               </ul>
             </div>
